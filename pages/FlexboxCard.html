@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <title>Flexbox Cards Example</title>
+    <style>
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .card {
+        flex: 0 0 200px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    } 
+    .card img {
+        max-width: 100%;
+    }
+    .card .text {
+        padding: 0 20px 20px;
+    }
+    .card .text > button {
+        background: gray;
+        border: 0;
+        color: white;
+        padding: 10px;
+        width: 100%;
+        }
+    </style>
+
+    <main class="cards">
+    <article class="card">
+        <img src="../assets/pic14.jpg" alt="Sample photo">
+        <div class="text">
+        <h3>Seamlessly visualize</h3>
+        <p>Properly planned and a perfect example of Human Architecture in 21 century.</p>
+        <button>Know More</button>
+        </div>
+    </article>
+    <article class="card">
+        <img src="../assets/pic6.jpg" alt="Sample photo">
+        <div class="text">
+        <h3>Focused Heart</h3>
+        <p>Enlightening the memories of spending quality times.</p>
+        <button>See More</button>
+        </div>
+    </article>
+    <article class="card">
+        <img src="../assets/pic11.jpg" alt="Sample photo">
+        <div class="text">
+        <h3>Imagination</h3>
+        <p>Scetching the visualization of mind full of dreams.</p>
+        <button>visualize</button>
+        </div>
+    </article>
+    <article class="card">
+        <img src="../assets/pic4.jpg" alt="Sample photo">
+        <div class="text">
+        <h3>Perspective</h3>
+        <p>A scenery of a different stage of life with past regrets...</p>
+        <button>Think before heading into</button>
+        </div>
+    </article>
+    <article class="card">
+        <img src="../assets/pic5.jpg" alt="Sample photo">
+        <div class="text">
+        <h3>Mall</h3>
+        <p>A shopping mall with a sparkling glance of its own floor.</p>
+        <button>Here's why</button>
+        </div>
+    </article>
+    <article class="card">
+        <img src="../assets/pic2.jpg" alt="Sample photo">
+        <div class="text">
+        <h3>Understanding</h3>
+        <p>Figuring out hidden message.</p>
+        <button>Go Deep</button>
+        </div>
+    </article>
+</main>
+</html>

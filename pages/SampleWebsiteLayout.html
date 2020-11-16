@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <!-- Holy Grail Layout 1-->
+    <head>
+        <meta charset="utf-8">
+        <link rel = "shortcut icon" href="..\assets\CapG1.jpg">
+        <title>Holy Grail Layout 1</title>
+        <style>
+        * {
+        box-sizing: border-box; 
+        }
+        body {
+            margin: 0;
+        }
+        #main {
+            display: flex;
+            min-height: calc(100vh - 40vh);
+        }
+        #main > article {
+            flex: 1;
+        }
+        #main > nav, 
+        #main > aside {
+            flex: 0 0 20vw;
+            background: beige;
+        }
+        #main > nav {
+            order: -1;
+        }
+        header, footer, article, nav{
+            padding: 1em;
+        }
+        aside {
+            margin-top: 10%;
+        }
+        header, footer {
+            background: yellowgreen;
+            height: 20vh;
+        }
+        h1{
+                font-size: 60px;
+                text-align: center;
+            }
+        </style>
+        <body>
+        <header>
+            <h1>Capgemini</h1>
+        </header>
+        <div id="main">
+            <article>
+                <p> <h3 style="text-align: center;">About Us</h3>
+                    A global leader in consulting, technology services and digital transformation, 
+                    Capgemini is at the forefront of innovation to address the entire 
+                    breadth of clients’ opportunities in the evolving world of cloud, digital 
+                    and platforms.
+                </p>
+                <p>Capgemini SE is a French multinational corporation that provides consulting, technology, professional, and outsourcing services. 
+                    It is headquartered in Paris, France.
+                    Capgemini has over 270,000 employees in over 50 countries,[4][5][6] of whom nearly 120,000 are in India
+                </p>
+                
+                <p><h3 style="text-align: center;">History</h3>
+                    Capgemini was founded by Serge Kampf in 1967[8] as an enterprise management and data processing company.
+                    The company was opened as the Société pour la Gestion de l'Entreprise et le Traitement de l'Information (Sogeti).
+                    In 1974 Sogeti acquired Gemini Computers Systems, a US company based in New York.[9] In 1975, having made two major
+                    acquisitions of CAP (Centre d'Analyse et de Programmation) and Gemini Computer Systems, and following resolution of
+                    a dispute with the similarly-named CAP UK over the international use of the name 'CAP', Sogeti renamed itself as CAP Gemini
+                    Sogeti. Cap Gemini Sogeti launched US operations in 1981, following the acquisition of Milwaukee-based DASD 
+                    Corporation, specializing in data conversion and employing 500 people in 20 branches throughout the US. 
+                    Following this acquisition, The U.S. Operation was known as Cap Gemini DASD. In 1996, the name was simplified 
+                    to Cap Gemini with a new group logo. All operating companies worldwide were re-branded to operate as Cap Gemini.
+                    Ernst & Young Consulting was acquired by Cap Gemini in 2000. It simultaneously integrated Gemini Consulting to form
+                    Cap Gemini Ernst & Young. In 2017, Cap Gemini S.A. became Capgemini SE, and its Euronext ticker name similarly changed 
+                    from CAP GEMINI to CAPGEMINI. In 2019, Capgemini acquires Altran bringing the total employee count to over 250,000. 
+                    This is the largest acquisition in the company's history. In July 2020, Capgemini reported that it has been named
+                    as a pioneer in Everest Group's Guidewire IT services called "Guidewire Services PEAK Matrix®
+                    Assessment 2020 – Setting the Key Phase on Cloud."
+                </p>
+            </article>
+            <nav>
+                <ul >
+                    <li>Technology</li>
+                    <li>Innovation</li>
+                    <li>Performance</li>
+                </ul>
+                <p style="text-align: center; text-decoration: double; ">To know more about us visit <a href="https://www.capgemini.com/in-en/">CapG</a></p>
+            </nav>
+            <aside>
+                <img src="..\assets\CapG.jpg" alt=" " width="100%">
+            </aside>
+        </div>
+        <footer>
+            <p>
+                Capgemini is driven by the conviction that the business value of technology comes from and through people. 
+                It is a multicultural company of over 200,000 team members in more than 40 countries. 
+                The Group reported 2018 global revenues of EUR 13.2 billion.
+            </p>
+        </footer>
+        </body>
+    </head>
+</html>
